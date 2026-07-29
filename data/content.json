@@ -1,184 +1,183 @@
 {
-    "identity":  {
-                     "name":  "Muhammad Shamel",
-                     "title":  "Enterprise Infrastructure Architect",
-                     "role":  "Senior Cloud Solutions Architect",
-                     "company":  "PwC Middle East",
-                     "focus":  "Enterprise Infrastructure Architecture",
-                     "platforms":  "OCI, Azure and On-Premises",
-                     "photo":  "assets/photo.png"
-                 },
-    "labels":  {
-                   "viewEngagements":  "View selected engagements",
-                   "linkedin":  "LinkedIn",
-                   "downloadCv":  "Download CV",
-                   "currentRole":  "Current role",
-                   "primaryFocus":  "Primary focus",
-                   "platforms":  "Platforms",
-                   "sendEmail":  "Send an email",
-                   "connectLinkedin":  "Connect on LinkedIn"
-               },
-    "sections":  {
-                     "profileEyebrow":  "Executive Profile",
-                     "profileHeading":  "Architecture leadership from strategy through delivery.",
-                     "capabilitiesEyebrow":  "Architecture Capabilities",
-                     "capabilitiesHeading":  "Business outcomes supported by deep technical capability.",
-                     "capabilitiesLead":  "Technology is the enabler. The real value is creating infrastructure that is resilient, scalable, governed and ready to operate.",
-                     "engagementsEyebrow":  "Selected Enterprise Engagements",
-                     "engagementsHeading":  "Evidence of architecture leadership at enterprise scale.",
-                     "engagementsLead":  "Four engagements that reflect how I approach transformation: understand the business need, shape the architecture, align stakeholders and carry the solution through delivery.",
-                     "journeyEyebrow":  "Professional Journey",
-                     "journeyHeading":  "From network engineering to enterprise architecture.",
-                     "journeyLead":  "A career built by moving progressively closer to the decisions that shape entire platforms.",
-                     "philosophyEyebrow":  "Architecture Philosophy",
-                     "contactEyebrow":  "Contact"
-                 },
-    "links":  {
-                  "linkedin":  "https://www.linkedin.com/in/",
-                  "cv":  "",
-                  "email":  "muhammad.shamel@example.com"
-              },
-    "hero":  {
-                 "eyebrow":  "Enterprise Infrastructure Architect",
-                 "headline":  "Designing infrastructure that \u003cspan\u003etransforms business.\u003c/span\u003e",
-                 "sub":  "I architect and lead secure, resilient enterprise platforms across cloud, hybrid and on-premises environments.",
-                 "copy":  "From greenfield banking platforms and disaster recovery to regional infrastructure and cloud modernization, I turn complex requirements into practical architectures that perform in the real world."
-             },
-    "profile":  {
-                    "p1":  "I am an Enterprise Infrastructure Architect with experience leading mission-critical initiatives across banking, professional services and digital forensics environments.",
-                    "p2":  "My work spans OCI, Azure and enterprise data centers, combining architecture, modernization, networking, resilience, operational excellence and technical leadership. I remain close to implementation because strong architecture must work beyond the diagram.",
-                    "p3":  "I lead design discussions, align internal teams and external technology partners, challenge assumptions when reality requires a better answer, and take ownership of complex delivery and troubleshooting."
-                },
-    "impact":  [
-                   {
-                       "title":  "Greenfield enterprise platforms",
-                       "text":  "Architecture and delivery from first design through operational readiness."
-                   },
-                   {
-                       "title":  "Cloud, hybrid and on-premises",
-                       "text":  "Experience across OCI, Azure and enterprise data center environments."
-                   },
-                   {
-                       "title":  "Resilience by design",
-                       "text":  "High availability, disaster recovery and secure connectivity built in."
-                   },
-                   {
-                       "title":  "Leadership across teams",
-                       "text":  "Orchestrating stakeholders, engineering teams and technology partners."
-                   }
-               ],
-    "capabilities":  [
-                         {
-                             "title":  "Enterprise Infrastructure Architecture",
-                             "text":  "Shaping target-state platforms that align infrastructure decisions with business priorities, risk, growth and operational needs.",
-                             "tech":  "Architecture strategy · HLD · LLD · governance · resilience"
-                         },
-                         {
-                             "title":  "Cloud \u0026 Hybrid Transformation",
-                             "text":  "Designing secure and governed cloud and hybrid environments across OCI, Azure and enterprise data centers.",
-                             "tech":  "OCI · Azure · landing zones · hybrid connectivity · DR"
-                         },
-                         {
-                             "title":  "Infrastructure Modernization",
-                             "text":  "Transforming legacy estates through platform redesign, virtualization, migration, standardization and automation.",
-                             "tech":  "Hyper-V · VMware · Windows Server · storage · migration"
-                         },
-                         {
-                             "title":  "Enterprise Networking",
-                             "text":  "Architecting connectivity, segmentation, routing and inspection models that support scale, security and regional operations.",
-                             "tech":  "DRG · Palo Alto · VPN · routing · segmentation"
-                         },
-                         {
-                             "title":  "Operational Excellence",
-                             "text":  "Improving reliability through architecture reviews, root-cause analysis, observability, documentation and continuous improvement.",
-                             "tech":  "RCA · monitoring · automation · service improvement"
-                         },
-                         {
-                             "title":  "Technical Leadership",
-                             "text":  "Leading design decisions and delivery across internal teams, application owners, administrators, security functions and vendors.",
-                             "tech":  "Stakeholder alignment · vendor leadership · architecture governance"
-                         }
-                     ],
-    "engagements":  [
-                        {
-                            "sector":  "Financial Services",
-                            "title":  "Enterprise Banking Platform Transformation",
-                            "intro":  "Architected and led the delivery of a mission-critical enterprise banking platform, establishing a secure, resilient and scalable foundation for business expansion, operational continuity and long-term growth.",
-                            "challenge":  "Enable a new banking operation in Saudi Arabia through a secure, resilient and operationally ready enterprise platform, while aligning internal functions and strategic technology partners around one delivery model.",
-                            "scope":  "End-to-end cloud and infrastructure architecture covering regional deployment, enterprise networking, identity and core infrastructure services, high availability, disaster recovery, governance and operational readiness.",
-                            "role":  "Served as the primary infrastructure architect and principal technical stakeholder. Led architecture and delivery discussions across bank teams and strategic vendors, resolved critical technical challenges, and adapted the design when implementation evidence required a more practical approach.",
-                            "outcome":  "Established an enterprise-grade banking foundation designed for resilience, continuity and long-term growth, with clear alignment across business stakeholders, technical teams and delivery partners.",
-                            "tech":  "Oracle Cloud Infrastructure · Jeddah primary region · Riyadh DR · enterprise networking · resilience"
-                        },
-                        {
-                            "sector":  "Professional Services",
-                            "title":  "Enterprise Cloud Network Modernization",
-                            "intro":  "Led a strategic cloud infrastructure modernization initiative focused on cost optimization while strengthening security, scalability, governance and operational flexibility.",
-                            "challenge":  "Modernize the cloud network and security model to improve control, scalability and operational flexibility while materially reducing recurring infrastructure cost.",
-                            "scope":  "Target-state cloud network and security architecture, including centralized connectivity, routing and segmentation, inspection design, migration planning and formal High-Level Design documentation.",
-                            "role":  "Led the target architecture, stakeholder discussions, implementation planning and design governance, while validating that routing, security and operational behavior aligned with the intended outcomes.",
-                            "outcome":  "Delivered a more secure, scalable and governable cloud foundation while reducing annual operating cost by approximately $40,000.",
-                            "tech":  "OCI · DRG · Palo Alto VM-Series · route tables · HLD"
-                        },
-                        {
-                            "sector":  "Digital Forensics",
-                            "title":  "Regional Infrastructure Platform",
-                            "intro":  "Designed and delivered a production-ready regional infrastructure platform that strengthened operational resilience, enabled secure collaboration and established a scalable foundation for future growth.",
-                            "challenge":  "Establish a production-ready regional infrastructure platform that could operate securely, integrate with the existing Dubai environment and support future growth.",
-                            "scope":  "End-to-end regional infrastructure architecture covering compute, identity, secure remote access, centralized management, network design, inter-site connectivity, operational services and architecture documentation.",
-                            "role":  "Owned the infrastructure and network architecture, led cross-team design decisions and drove delivery of the core platform and secure regional connectivity.",
-                            "outcome":  "Delivered a secure and operationally ready regional platform with standardized services, resilient connectivity and a documented foundation for support and future expansion.",
-                            "tech":  "Hyper-V · Windows Server · Active Directory · RD Gateway · VPN · enterprise networking"
-                        },
-                        {
-                            "sector":  "Enterprise Platforms",
-                            "title":  "Platform Reliability \u0026 Continuous Improvement",
-                            "intro":  "Led continuous platform improvement initiatives focused on architecture maturity, operational excellence, service reliability and automation across enterprise environments.",
-                            "challenge":  "Improve the reliability, maintainability and operational maturity of enterprise platforms spanning multiple technologies, dependencies, teams and vendors.",
-                            "scope":  "Platform architecture refinement, complex production troubleshooting, root-cause analysis, automation, operational standardization, architecture documentation and continuous service improvement.",
-                            "role":  "Led cross-functional investigations, converted technical findings into sustainable architecture and operating improvements, and automated repeatable activities to reduce operational friction.",
-                            "outcome":  "Strengthened platform reliability and supportability, reduced recurring operational friction and established clearer, more sustainable operating models.",
-                            "tech":  "Azure · PowerShell · automation · RCA · architecture documentation"
-                        }
-                    ],
-    "journey":  [
-                    {
-                        "year":  "2025 — Present",
-                        "role":  "Senior Cloud Solutions Architect",
-                        "org":  "PwC Middle East",
-                        "text":  "Leading cloud, hybrid and on-premises architecture and modernization across regional Digital Forensics environments."
-                    },
-                    {
-                        "year":  "2024 — 2025",
-                        "role":  "Data Center Architect",
-                        "org":  "National Bank of Egypt",
-                        "text":  "Led enterprise infrastructure architecture and the greenfield OCI banking platform for Saudi Arabia."
-                    },
-                    {
-                        "year":  "2022 — 2024",
-                        "role":  "Network Engineer",
-                        "org":  "Orange Business",
-                        "text":  "Delivered enterprise networking and troubleshooting across complex customer environments."
-                    },
-                    {
-                        "year":  "2020 — 2022",
-                        "role":  "Network Engineer",
-                        "org":  "EMC",
-                        "text":  "Built a strong foundation in infrastructure, networking and disciplined technical problem solving."
-                    }
-                ],
-    "philosophy":  {
-                       "quote":  "Successful architecture is not measured by the technology selected. It is measured by the \u003cspan\u003ebusiness outcome it enables.\u003c/span\u003e",
-                       "p1":  "My approach combines strategic planning with hands-on technical leadership. I design for security, resilience, scalability and operational sustainability from the beginning, not as corrective work after deployment.",
-                       "p2":  "I also believe architecture must adapt to evidence. When implementation exposes a weak assumption, the right response is to improve the design, align stakeholders and move forward with a solution grounded in operational reality."
-                   },
-    "footer":  {
-                   "left":  "Muhammad Shamel · Enterprise Infrastructure Architect",
-                   "right":  "Cloud · Hybrid · On-Premises"
-               },
-    "contact":  {
-                    "heading":  "Let’s discuss your next infrastructure transformation.",
-                    "copy":  "I am always open to conversations around enterprise architecture, cloud and hybrid modernization, platform resilience and technical leadership."
-                }
+  "identity": {
+    "name": "Muhammad Shamel",
+    "title": "Enterprise Infrastructure Architect",
+    "role": "Senior Cloud Solutions Architect",
+    "company": "PwC Middle East",
+    "focus": "Enterprise Infrastructure Architecture",
+    "platforms": "OCI, Azure and On-Premises",
+    "photo": "assets/photo.png"
+  },
+  "labels": {
+    "viewEngagements": "View selected engagements",
+    "linkedin": "LinkedIn",
+    "downloadCv": "Download CV",
+    "currentRole": "Current role",
+    "primaryFocus": "Primary focus",
+    "platforms": "Platforms",
+    "sendEmail": "Send an email",
+    "connectLinkedin": "Connect on LinkedIn"
+  },
+  "sections": {
+    "profileEyebrow": "Executive Profile",
+    "profileHeading": "Architecture leadership from strategy through delivery.",
+    "capabilitiesEyebrow": "Architecture Capabilities",
+    "capabilitiesHeading": "Business outcomes supported by deep technical capability.",
+    "capabilitiesLead": "Technology is the enabler. The real value is creating infrastructure that is resilient, scalable, governed and ready to operate.",
+    "engagementsEyebrow": "Selected Enterprise Engagements",
+    "engagementsHeading": "Evidence of architecture leadership at enterprise scale.",
+    "engagementsLead": "Four engagements that reflect how I approach transformation: understand the business need, shape the architecture, align stakeholders and carry the solution through delivery.",
+    "journeyEyebrow": "Professional Journey",
+    "journeyHeading": "From network engineering to enterprise architecture.",
+    "journeyLead": "A career built by moving progressively closer to the decisions that shape entire platforms.",
+    "philosophyEyebrow": "Architecture Philosophy",
+    "contactEyebrow": "Contact"
+  },
+  "links": {
+    "linkedin": "https://www.linkedin.com/in/muhammadshamell/",
+    "cv": "assets/cv.pdf",
+    "email": "muhammadshamell@gmail.com"
+  },
+  "hero": {
+    "eyebrow": "Enterprise Infrastructure Architect",
+    "headline": "Designing infrastructure that <span>transforms business.</span>",
+    "sub": "I architect and lead secure, resilient enterprise platforms across cloud, hybrid and on-premises environments.",
+    "copy": "From greenfield banking platforms and disaster recovery to regional infrastructure and cloud modernization, I turn complex requirements into practical architectures that perform in the real world."
+  },
+  "profile": {
+    "p1": "I am an Enterprise Infrastructure Architect with experience leading mission-critical initiatives across banking, professional services and digital forensics environments.",
+    "p2": "My work spans OCI, Azure and enterprise data centers, combining architecture, modernization, networking, resilience, operational excellence and technical leadership. I remain close to implementation because strong architecture must work beyond the diagram.",
+    "p3": "I lead design discussions, align internal teams and external technology partners, challenge assumptions when reality requires a better answer, and take ownership of complex delivery and troubleshooting."
+  },
+  "impact": [
+    {
+      "title": "Greenfield enterprise platforms",
+      "text": "Architecture and delivery from first design through operational readiness."
+    },
+    {
+      "title": "Cloud, hybrid and on-premises",
+      "text": "Experience across OCI, Azure and enterprise data center environments."
+    },
+    {
+      "title": "Resilience by design",
+      "text": "High availability, disaster recovery and secure connectivity built in."
+    },
+    {
+      "title": "Leadership across teams",
+      "text": "Orchestrating stakeholders, engineering teams and technology partners."
+    }
+  ],
+  "capabilities": [
+    {
+      "title": "Enterprise Infrastructure Architecture",
+      "text": "Shaping target-state platforms that align infrastructure decisions with business priorities, risk, growth and operational needs.",
+      "tech": "Architecture strategy · HLD · LLD · governance · resilience"
+    },
+    {
+      "title": "Cloud & Hybrid Transformation",
+      "text": "Designing secure and governed cloud and hybrid environments across OCI, Azure and enterprise data centers.",
+      "tech": "OCI · Azure · landing zones · hybrid connectivity · DR"
+    },
+    {
+      "title": "Infrastructure Modernization",
+      "text": "Transforming legacy estates through platform redesign, virtualization, migration, standardization and automation.",
+      "tech": "Hyper-V · VMware · Windows Server · storage · migration"
+    },
+    {
+      "title": "Enterprise Networking",
+      "text": "Architecting connectivity, segmentation, routing and inspection models that support scale, security and regional operations.",
+      "tech": "DRG · Palo Alto · VPN · routing · segmentation"
+    },
+    {
+      "title": "Operational Excellence",
+      "text": "Improving reliability through architecture reviews, root-cause analysis, observability, documentation and continuous improvement.",
+      "tech": "RCA · monitoring · automation · service improvement"
+    },
+    {
+      "title": "Technical Leadership",
+      "text": "Leading design decisions and delivery across internal teams, application owners, administrators, security functions and vendors.",
+      "tech": "Stakeholder alignment · vendor leadership · architecture governance"
+    }
+  ],
+  "engagements": [
+    {
+      "sector": "Financial Services",
+      "title": "Enterprise Banking Platform Transformation",
+      "intro": "Architected and led the delivery of a mission-critical enterprise banking platform, establishing a secure, resilient and scalable foundation for business expansion, operational continuity and long-term growth.",
+      "challenge": "Enable a new banking operation in Saudi Arabia through a secure, resilient and operationally ready enterprise platform, while aligning internal functions and strategic technology partners around one delivery model.",
+      "scope": "End-to-end cloud and infrastructure architecture covering regional deployment, enterprise networking, identity and core infrastructure services, high availability, disaster recovery, governance and operational readiness.",
+      "role": "Served as the primary infrastructure architect and principal technical stakeholder. Led architecture and delivery discussions across bank teams and strategic vendors, resolved critical technical challenges, and adapted the design when implementation evidence required a more practical approach.",
+      "outcome": "Established an enterprise-grade banking foundation designed for resilience, continuity and long-term growth, with clear alignment across business stakeholders, technical teams and delivery partners.",
+      "tech": "Oracle Cloud Infrastructure · Jeddah primary region · Riyadh DR · enterprise networking · resilience"
+    },
+    {
+      "sector": "Professional Services",
+      "title": "Enterprise Cloud Network Modernization",
+      "intro": "Led a strategic cloud infrastructure modernization initiative focused on cost optimization while strengthening security, scalability, governance and operational flexibility.",
+      "challenge": "Modernize the cloud network and security model to improve control, scalability and operational flexibility while materially reducing recurring infrastructure cost.",
+      "scope": "Target-state cloud network and security architecture, including centralized connectivity, routing and segmentation, inspection design, migration planning and formal High-Level Design documentation.",
+      "role": "Led the target architecture, stakeholder discussions, implementation planning and design governance, while validating that routing, security and operational behavior aligned with the intended outcomes.",
+      "outcome": "Delivered a more secure, scalable and governable cloud foundation while reducing annual operating cost by approximately $40,000.",
+      "tech": "OCI · DRG · Palo Alto VM-Series · route tables · HLD"
+    },
+    {
+      "sector": "Digital Forensics",
+      "title": "Regional Infrastructure Platform",
+      "intro": "Designed and delivered a production-ready regional infrastructure platform that strengthened operational resilience, enabled secure collaboration and established a scalable foundation for future growth.",
+      "challenge": "Establish a production-ready regional infrastructure platform that could operate securely, integrate with the existing Dubai environment and support future growth.",
+      "scope": "End-to-end regional infrastructure architecture covering compute, identity, secure remote access, centralized management, network design, inter-site connectivity, operational services and architecture documentation.",
+      "role": "Owned the infrastructure and network architecture, led cross-team design decisions and drove delivery of the core platform and secure regional connectivity.",
+      "outcome": "Delivered a secure and operationally ready regional platform with standardized services, resilient connectivity and a documented foundation for support and future expansion.",
+      "tech": "Hyper-V · Windows Server · Active Directory · RD Gateway · VPN · enterprise networking"
+    },
+    {
+      "sector": "Enterprise Platforms",
+      "title": "Platform Reliability & Continuous Improvement",
+      "intro": "Led continuous platform improvement initiatives focused on architecture maturity, operational excellence, service reliability and automation across enterprise environments.",
+      "challenge": "Improve the reliability, maintainability and operational maturity of enterprise platforms spanning multiple technologies, dependencies, teams and vendors.",
+      "scope": "Platform architecture refinement, complex production troubleshooting, root-cause analysis, automation, operational standardization, architecture documentation and continuous service improvement.",
+      "role": "Led cross-functional investigations, converted technical findings into sustainable architecture and operating improvements, and automated repeatable activities to reduce operational friction.",
+      "outcome": "Strengthened platform reliability and supportability, reduced recurring operational friction and established clearer, more sustainable operating models.",
+      "tech": "Azure · PowerShell · automation · RCA · architecture documentation"
+    }
+  ],
+  "journey": [
+    {
+      "year": "2025 — Present",
+      "role": "Senior Cloud Solutions Architect",
+      "org": "PwC Middle East",
+      "text": "Leading cloud, hybrid and on-premises architecture and modernization across regional Digital Forensics environments."
+    },
+    {
+      "year": "2024 — 2025",
+      "role": "Data Center Architect",
+      "org": "National Bank of Egypt",
+      "text": "Led enterprise infrastructure architecture and the greenfield OCI banking platform for Saudi Arabia."
+    },
+    {
+      "year": "2022 — 2024",
+      "role": "Network Engineer",
+      "org": "Orange Business",
+      "text": "Delivered enterprise networking and troubleshooting across complex customer environments."
+    },
+    {
+      "year": "2020 — 2022",
+      "role": "Network Engineer",
+      "org": "EMC",
+      "text": "Built a strong foundation in infrastructure, networking and disciplined technical problem solving."
+    }
+  ],
+  "philosophy": {
+    "quote": "Successful architecture is not measured by the technology selected. It is measured by the <span>business outcome it enables.</span>",
+    "p1": "My approach combines strategic planning with hands-on technical leadership. I design for security, resilience, scalability and operational sustainability from the beginning, not as corrective work after deployment.",
+    "p2": "I also believe architecture must adapt to evidence. When implementation exposes a weak assumption, the right response is to improve the design, align stakeholders and move forward with a solution grounded in operational reality."
+  },
+  "footer": {
+    "left": "Muhammad Shamel · Enterprise Infrastructure Architect",
+    "right": "Cloud · Hybrid · On-Premises"
+  },
+  "contact": {
+    "heading": "Let’s discuss your next infrastructure transformation.",
+    "copy": "I am always open to conversations around enterprise architecture, cloud and hybrid modernization, platform resilience and technical leadership."
+  }
 }
-
