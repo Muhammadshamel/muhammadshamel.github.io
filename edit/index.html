@@ -22,7 +22,7 @@ html[data-theme="dark"]{--bg:#0d1119;--surface:#141a24;--surface-2:#1a2230;--tex
 </style>
 </head>
 <body class="editing">
-<header class="nav" id="nav"><div class="wrap nav-inner"><a class="brand" href="../"><span data-edit="identity.name">Muhammad Shamel</span><small data-edit="identity.title">Enterprise Infrastructure Architect</small></a><nav class="links"><a href="#profile">Profile</a><a href="#capabilities">Capabilities</a><a href="#engagements">Engagements</a><a href="#journey">Journey</a><a href="#contact">Contact</a></nav><div class="nav-actions"><span class="edit-badge">Edit mode</span><button class="icon-btn" id="themeToggle" aria-label="Toggle theme">◐</button><button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button></div></div><nav class="mobile" id="mobile"><a href="#profile">Profile</a><a href="#capabilities">Capabilities</a><a href="#engagements">Engagements</a><a href="#journey">Journey</a><a href="#contact">Contact</a></nav></header>
+<header class="nav" id="nav"><div class="wrap nav-inner"><a class="brand" href="/"><span data-edit="identity.name">Muhammad Shamel</span><small data-edit="identity.title">Enterprise Infrastructure Architect</small></a><nav class="links"><a href="#profile">Profile</a><a href="#capabilities">Capabilities</a><a href="#engagements">Engagements</a><a href="#journey">Journey</a><a href="#contact">Contact</a></nav><div class="nav-actions"><span class="edit-badge">Edit mode</span><button class="icon-btn" id="themeToggle" aria-label="Toggle theme">◐</button><button class="icon-btn menu-btn" id="menuBtn" aria-label="Menu">☰</button></div></div><nav class="mobile" id="mobile"><a href="#profile">Profile</a><a href="#capabilities">Capabilities</a><a href="#engagements">Engagements</a><a href="#journey">Journey</a><a href="#contact">Contact</a></nav></header>
 <main id="top">
 <section class="hero"><div class="wrap"><div class="hero-grid"><div><div class="eyebrow" data-edit="hero.eyebrow"></div><h1 data-edit="hero.headline"></h1><p class="hero-sub" data-edit="hero.sub"></p><p class="hero-copy" data-edit="hero.copy"></p><div class="actions"><a class="btn primary" href="#engagements" data-edit="labels.viewEngagements">View selected engagements</a><a class="btn" id="linkedinBtn" href="#">LinkedIn</a><a class="btn" id="cvBtn" href="#">Download CV</a></div></div><div class="portrait"><div class="portrait-card"><img id="photo" alt="Muhammad Shamel"><div class="photo-edit"><button class="btn" id="photoButton">Change photo</button><input id="photoInput" type="file" accept="image/*" hidden></div><div class="portrait-meta"><strong data-edit="identity.role"></strong><span data-edit="identity.company"></span></div></div></div></div><div class="impact-strip" id="impactStrip"></div></div></section>
 <section class="section" id="profile"><div class="wrap profile"><aside><div class="eyebrow" data-edit="sections.profileEyebrow"></div><h2 data-edit="sections.profileHeading"></h2></aside><div class="profile-copy"><p data-edit="profile.p1"></p><p data-edit="profile.p2"></p><p data-edit="profile.p3"></p><div class="signature"><div><b>Current role</b><span data-edit="identity.role"></span></div><div><b>Primary focus</b><span data-edit="identity.focus"></span></div><div><b>Platforms</b><span data-edit="identity.platforms"></span></div></div></div></div></section>
@@ -45,8 +45,13 @@ html[data-theme="dark"]{--bg:#0d1119;--surface:#141a24;--surface-2:#1a2230;--tex
   <button id="done">View site</button>
 </div>
 <div class="toast" id="toast"></div>
-<script>window.SITE_CONFIG={mode:"edit",contentPath:"../data/content.json",assetPrefix:"../"};</script>
-<script src="../js/site.js"></script>
+<script>
+window.SITE_CONFIG = {
+  mode: "edit",
+  contentPath: "/data/content.json",
+  assetPrefix: "/"
+};
+</script>
+<script src="/js/site.js" defer></script>
 </body>
 </html>
-
