@@ -5,8 +5,13 @@
     "role": "Senior Cloud Solutions Architect",
     "company": "PwC Middle East",
     "focus": "Enterprise Infrastructure Architecture",
+<<<<<<< HEAD
     "platforms": "OCI, Azure and On-Premises",
     "photo": "assets/photo.webp"
+=======
+    "platforms": "",
+    "photo": "assets/photo.png"
+>>>>>>> b3549b12ed6fb2d5841b78f37473b70e3a49a6ec
   },
   "labels": {
     "viewEngagements": "View selected engagements",
@@ -14,7 +19,7 @@
     "downloadCv": "Download CV",
     "currentRole": "Current role",
     "primaryFocus": "Primary focus",
-    "platforms": "Platforms",
+    "platforms": "<br>",
     "sendEmail": "Send an email",
     "connectLinkedin": "Connect on LinkedIn"
   },
@@ -145,7 +150,7 @@
     {
       "year": "2025 — Present",
       "role": "Senior Cloud Solutions Architect",
-      "org": "PwC Middle East",
+      "org": "PwC",
       "text": "Leading cloud, hybrid and on-premises architecture and modernization across regional Digital Forensics environments."
     },
     {
@@ -156,7 +161,7 @@
     },
     {
       "year": "2022 — 2024",
-      "role": "Network Engineer",
+      "role": "Senior Network Engineer",
       "org": "Orange Business",
       "text": "Delivered enterprise networking and troubleshooting across complex customer environments."
     },
