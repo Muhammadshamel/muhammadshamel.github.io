@@ -3,8 +3,8 @@
   if (!window.SITE_CONFIG) {
     window.SITE_CONFIG = {
       mode: "view",
-      contentPath: "data/content.json",
-      assetPrefix: ""
+      contentPath: "/data/content.json",
+      assetPrefix: "/"
     };
   }
 
@@ -34,6 +34,7 @@
 
   function assetUrl(path) {
     if (!path || path.indexOf("data:") === 0 || path.indexOf("http") === 0) return path;
+    if (path.indexOf("/") === 0) return path;
     return (window.SITE_CONFIG.assetPrefix || "") + path;
   }
 
@@ -271,7 +272,7 @@
     if (editToggle) editToggle.remove();
 
     on($("#done"), "click", function () {
-      location.href = "../";
+      location.href = "/";
     });
     on($("#save"), "click", function () {
       localStorage.setItem(KEY, JSON.stringify(data));
