@@ -86,7 +86,7 @@
     var caseList = $("#caseList");
     if (caseList && state.data.engagements) {
       caseList.innerHTML = state.data.engagements.map(function (x, i) {
-        return '<article class="case reveal" data-case="' + i + '"><div class="sector" data-edit="engagements.' + i + '.sector">' + x.sector + '</div><div><h3 data-edit="engagements.' + i + '.title">' + x.title + '</h3><p data-edit="engagements.' + i + '.intro">' + x.intro + '</p></div><div class="arrow">↗</div></article>';
+        return '<article class="case reveal" data-case="' + i + '"><div class="sector" data-edit="engagements.' + i + '.sector">' + x.sector + '</div><div><h3 data-edit="engagements.' + i + '.title">' + x.title + '</h3><p data-edit="engagements.' + i + '.intro">' + x.intro + '</p></div><div class="arrow"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 5l7 7-7 7"/></svg></div></article>';
       }).join("");
     }
 
