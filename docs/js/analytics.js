@@ -46,11 +46,27 @@
     if (engagementCard) {
       var titleElement = engagementCard.querySelector("h3");
       var sectorElement = engagementCard.querySelector(".sector");
-      track("engagement_open", {
+      var engagementIndex = Number(engagementCard.getAttribute("data-case"));
+      var engagementParameters = {
         engagement_name: cleanText(titleElement && titleElement.textContent),
         engagement_category: cleanText(sectorElement && sectorElement.textContent),
-        engagement_index: Number(engagementCard.getAttribute("data-case")) + 1
-      });
+        engagement_index: engagementIndex + 1
+      };
+
+      /* Keep one generic event for combined reporting. */
+      track("engagement_open", engagementParameters);
+
+      /* Also send a dedicated event for simple per-engagement reporting. */
+      var engagementEvents = [
+        "view_banking_transformation",
+        "view_cloud_modernization",
+        "view_regional_platform",
+        "view_operational_excellence"
+      ];
+
+      if (engagementEvents[engagementIndex]) {
+        track(engagementEvents[engagementIndex], engagementParameters);
+      }
       return;
     }
 
