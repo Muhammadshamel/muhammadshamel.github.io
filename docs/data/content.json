@@ -81,7 +81,7 @@
       "tech": "Oracle Cloud Infrastructure · Jeddah primary region · Riyadh DR · enterprise networking · resilience"
     },
     {
-      "sector": "Professional Services",
+      "sector": "Cloud Modernization",
       "title": "Enterprise Cloud Network Modernization",
       "intro": "Redesigned an enterprise cloud network and security model to improve control, scalability and operating efficiency while reducing recurring cost.",
       "challenge": "Modernize the existing cloud network and security model without weakening operational continuity, while addressing cost, governance and scalability constraints.",
@@ -101,7 +101,7 @@
       "tech": "Hyper-V · Windows Server · Active Directory · RD Gateway · VPN · enterprise networking"
     },
     {
-      "sector": "Enterprise Platforms",
+      "sector": "Hybrid Platforms",
       "title": "Platform Reliability & Continuous Improvement",
       "intro": "Improved the reliability and supportability of enterprise platforms by converting complex production findings into sustainable architecture and operating changes.",
       "challenge": "Increase reliability and operational maturity across platforms with multiple technologies, dependencies, teams and vendor boundaries.",
