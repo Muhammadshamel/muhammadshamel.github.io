@@ -75,11 +75,15 @@
         return '<div class="impact-item"><strong data-edit="impact.' + i + '.title">' + x.title + '</strong><span data-edit="impact.' + i + '.text">' + x.text + '</span></div>';
       }).join("");
     }
-
-    var capGrid = $("#capGrid");
-    if (capGrid && state.data.capabilities) {
-      capGrid.innerHTML = state.data.capabilities.map(function (x, i) {
-        return '<article class="cap reveal"><div class="cap-no">0' + (i + 1) + '</div><h3 data-edit="capabilities.' + i + '.title">' + x.title + '</h3><p data-edit="capabilities.' + i + '.text">' + x.text + '</p></article>';
+    var expertiseGrid = $("#expertiseGrid");
+    if (expertiseGrid && state.data.expertise) {
+      expertiseGrid.innerHTML = state.data.expertise.map(function (item, index) {
+        return (
+          '<article class="cap reveal">' +
+            '<h3 data-edit="expertise.' + index + '.title">' + item.title + "</h3>" +
+            '<p data-edit="expertise.' + index + '.text">' + item.text + "</p>" +
+          "</article>"
+        );
       }).join("");
     }
 
